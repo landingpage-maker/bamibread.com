@@ -30,6 +30,7 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "Barlow Condensed", sans-serif;
+        overflow-x: hidden;
       }
       .bg-primary-color {
         background: #1a2037;
@@ -807,10 +808,10 @@
               <!-- Right: Image -->
               <div class="flex-1 flex justify-center items-center mb-6 md:mb-0">
                 <div
-                  class="relative group w-[270px] h-[270px] md:w-[370px] md:h-[370px] rounded-[2.5rem] overflow-visible flex items-center justify-center"
+                  class="relative group w-[270px] h-[270px] md:w-[370px] md:h-[370px] rounded-[2.5rem] overflow-hidden flex items-center justify-center"
                 >
                   <div
-                    class="absolute -inset-3 md:-inset-4 bg-gradient-to-br from-[#edca7b]/70 via-[#fffbe6]/80 to-[#522828]/40 rounded-[2.7rem] blur-xl opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500 z-0"
+                    class="absolute inset-0 md:-inset-4 bg-gradient-to-br from-[#edca7b]/70 via-[#fffbe6]/80 to-[#522828]/40 rounded-[2.7rem] blur-xl opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500 z-0"
                   ></div>
                   <div
                     class="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-[#522828] bg-[#fffbe6]"
@@ -834,9 +835,9 @@
                     </div>
                   </div>
                   <div
-                    class="absolute -top-28 -right-20 w-20 h-20 md:w-24 md:h-24 z-0"
+                    class="absolute -top-20 -right-12 md:-right-20 w-20 h-20 md:w-24 md:h-24 z-0 max-w-none"
                   >
-                    <img src="./img/img/bami_there_.png" alt="" />
+                    <img src="./img/img/bami_there_.png" alt="" class="w-full h-auto" />
                   </div>
                   <svg
                     class="absolute -top-6 -right-6 w-16 h-16 md:w-20 md:h-20 opacity-20 z-0"
@@ -879,9 +880,8 @@
                     />
                   </svg>
                   <svg
-                    class="absolute -bottom-6 -right-14 w-24 h-24 z-10"
+                    class="absolute -bottom-6 -right-10 md:-right-14 w-16 h-16 md:w-24 md:h-24 z-10"
                     xmlns="http://www.w3.org/2000/svg"
-                    width="100%"
                     viewBox="0 0 92 157"
                     fill="none"
                     data-scroll-animation-target="sticker"
